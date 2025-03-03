@@ -1,11 +1,12 @@
 .topbarContainer {
   height: 50px;
   width: 100%;
-  background-color: #7ff396;
+  background-color: #7FF396;
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 
 .topbarLeft {
@@ -38,12 +39,12 @@
   margin-left: 10px;
 }
 
-.searchinput {
+.searchInput {
   border: none;
   width: 70%;
 }
 
-.searchinput:focus {
+.searchInput:focus {
   outline: none;
 }
 
@@ -55,8 +56,8 @@
   color: white;
 }
 
-.topbarlink {
-  margin-left: 10px;
+.topbarLink {
+  margin-right: 10px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -66,7 +67,7 @@
 }
 
 .topbarIconItem {
-  margin-right: 16px;
+  margin-right: 15px;
   cursor: pointer;
   position: relative;
 }
